@@ -1,0 +1,47 @@
+.userlist {
+	flex: 4;
+}
+
+.mdc-data-table__header-cell {
+backgound:red;
+color:red;
+padding: 90px;
+}
+
+.MuiSvgIcon-root.MuiDataGrid-iconSeparator {
+	display: none;
+}
+.datatable-username {
+	display: flex;
+	align-items:center;
+	gap: 7px;
+}
+.datatable-username > img {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.datatable-action {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	color: #333;
+}
+
+.datatable-action > a {
+	display: inline-flex;
+	color: #222;
+	cursor: pointer;
+}
+
+.userlist-icon-edit,
+.userlist-icon-delete {
+	font-size: 17px;
+	cursor:pointer;
+}
+.userlist-icon-delete {
+	color: darkred;
+}
+

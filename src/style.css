@@ -1,0 +1,21 @@
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+}
+
+main {
+	display: flex;
+}
+
+.main-container {
+	flex: 4;
+	margin-top: 10px;
+}
+@media screen and (max-device-width:640px), screen and (max-width:640px) {
+	.featured, .main-widget-container {
+		flex-direction: column !important;
+	}
+	.sidebar-m-hide {
+		display: none;
+	}
+}

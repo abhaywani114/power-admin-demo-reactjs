@@ -1,0 +1,174 @@
+.user-edit {
+	flex: 4;
+	padding: 20px 20px;
+}
+
+.top-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top-bar > h1 {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.top-bar > button {
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    padding: 6px 15px;
+    font-weight: 600;
+    color: #fff;
+    background: #0f5298;
+	cursor: pointer;
+}
+
+.user-edit > .main-container {
+	display: flex;
+	gap: 20px;
+}
+.user-edit > .main-container > div {
+	box-shadow: 1px 1px 4px 0px rgb(128 128 128 / 75%);
+    -webkit-box-shadow: 1px 1px 4px 0px rgb(128 128 128 / 75%);
+}
+
+.user-edit-display {
+	flex: 2;
+	padding: 20px;
+}
+
+.user-edit-form {
+	flex: 4;
+}
+.user-edit-dp {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.user-edit-dp > img {
+	height:40px;
+	width: 40px;
+	object-fit:cover;
+	border-radius: 50%;
+}
+
+.user-edit-dp-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.user-edit-dp-main-text {
+	font-weight: 700;
+	font-size: 14px;
+	color: #222;
+}
+
+.user-edit-dp-sub-text {
+	font-weight: 500;
+	font-size: 14px;
+	color: #555;
+}
+
+.user-edit-sub-headding {
+	margin: 10px 0px;
+	color: #777;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.user-edit-profile-detail-strip {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin: 15px 0px;
+	color: #333;
+	font-size: 12px;
+}
+
+.user-edit-profile-detail-strip > svg {
+	font-size: 12px;
+}
+
+
+
+.user-edit-form {
+	display: flex;
+	padding: 20px;
+}
+.edit-form {
+	flex: 4;
+}
+.dp {
+	flex: 4;
+}
+
+.edit-form > h1 {
+	font-size: 22px;
+	font-weight: 600;
+}
+.edit-form > form {
+	margin-top: 10px;
+}
+
+.form-field {
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+}
+
+.form-field {
+	margin-top: 15px;
+}
+
+.form-field > label {
+	font-size: 12px;
+	color: #222;
+	font-weight:600;
+}
+
+.form-field > input {
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 7px;
+	color: #444;
+	font-size: 13px;
+	font-weight: 500;
+}
+
+.profile-upload-container {
+	margin-top: 45px;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: right;
+}
+
+.profile-upload-container > img{
+	border-radius: 7px;
+	width: 100px;
+	height: auto; 
+}
+
+.dp {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dp > button {
+	width: 40%;
+	margin-left: auto;
+
+	outline: none;
+    border: none;
+    border-radius: 7px;
+    padding: 6px 15px;
+    font-weight: 600;
+    color: #fff;
+    background: #0f5298;
+    cursor: pointer;
+}
