@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/power-admin-demo-reactjs/static/css/main.fbd747ba.css",
-    "main.js": "/power-admin-demo-reactjs/static/js/main.42da5ec9.js",
+    "main.js": "/power-admin-demo-reactjs/static/js/main.0a5386bf.js",
     "index.html": "/power-admin-demo-reactjs/index.html",
     "main.fbd747ba.css.map": "/power-admin-demo-reactjs/static/css/main.fbd747ba.css.map",
-    "main.42da5ec9.js.map": "/power-admin-demo-reactjs/static/js/main.42da5ec9.js.map"
+    "main.0a5386bf.js.map": "/power-admin-demo-reactjs/static/js/main.0a5386bf.js.map"
   },
   "entrypoints": [
     "static/css/main.fbd747ba.css",
-    "static/js/main.42da5ec9.js"
+    "static/js/main.0a5386bf.js"
   ]
 }
